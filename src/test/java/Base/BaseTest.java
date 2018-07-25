@@ -18,7 +18,7 @@ public class BaseTest {
         requestSpecBuilder.addHeader("Content-Type", "application/json");
 
         requestSpecification = requestSpecBuilder.build();
-        requestSpecification.baseUri("http://api.globedr.com");
+        requestSpecification.baseUri("your uri");
 
     }
 
